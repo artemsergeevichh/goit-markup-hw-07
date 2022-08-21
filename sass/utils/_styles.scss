@@ -1,0 +1,37 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+   color: var(--secondary-text-color);
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;   
+}
+
+.container {
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px; 
+}
+
+.section {
+    padding: 94px 0;
+    
+}
