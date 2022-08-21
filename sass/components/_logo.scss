@@ -1,0 +1,19 @@
+.logo {
+    @include font(26, 1.2, 700, 0.03em);
+    font-family: "Raleway", sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    color: var(--buttons-text-color);
+    display: block;
+    
+}
+.header__logo {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+}
+
+.studio {
+    color: #000000;
+}

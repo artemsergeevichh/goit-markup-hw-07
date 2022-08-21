@@ -1,0 +1,23 @@
+.main {
+    color: var(--option-button-color);
+    background-color: var(--header-footer-color);
+    padding: 200px 0;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), 
+        url(../pic/hbg.jpg);
+}
+
+
+.main__effect {
+    @include font(44, 1.4, 900, 0.06em);
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 696px;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;    
+}
+
+
+
